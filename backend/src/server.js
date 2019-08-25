@@ -6,7 +6,8 @@ const cors = require('cors');
 // cria o servidor com a função do express
 const server = express();
 
-mongoose.connect('mongodb+srv://caiqueribeiro:caiqueribeiro@cluster0-xhvf1.mongodb.net/omnistack?retryWrites=true&w=majority',{
+mongoose.connect(
+    'mongodb+srv://caiqueribeiro:caiqueribeiro@cluster0-xhvf1.mongodb.net/omnistack?retryWrites=true&w=majority',{
     useNewUrlParser: true
 });
 
